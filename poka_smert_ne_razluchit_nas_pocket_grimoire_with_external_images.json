@@ -1,0 +1,453 @@
+[
+  {
+    "id": "_meta",
+    "name": "Пока смерть не разлучит нас",
+    "author": "fan script",
+    "logo": ""
+  },
+  {
+    "id": "nevesta",
+    "edition": "custom",
+    "firstNight": 40,
+    "firstNightReminder": "Невеста выбирает игрока. Покажите «добрый» или «злой». Если выбран Жених, покажите им друг друга и поставьте «Знает Жениха».",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Проверен",
+      "Знает Жениха"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Невеста",
+    "team": "townsfolk",
+    "ability": "Вступление: вы узнаёте, добрый ли один выбранный вами игрок. Если это Жених, вы оба узнаёте друг друга.",
+    "image": "{{BASE_URL}}/icons/nevesta.svg"
+  },
+  {
+    "id": "svidetel",
+    "edition": "custom",
+    "firstNight": 41,
+    "firstNightReminder": "Покажите Свидетелю двух игроков, среди которых ровно один злой.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Показан"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Свидетель",
+    "team": "townsfolk",
+    "ability": "Вступление: вы узнаёте двух игроков, среди которых ровно один злой.",
+    "image": "{{BASE_URL}}/icons/svidetel.svg"
+  },
+  {
+    "id": "podruzhka_nevesty",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 44,
+    "otherNightReminder": "Подружка невесты выбирает двух игроков. Покажите «да», если они на одной стороне, иначе «нет».",
+    "reminders": [
+      "Выбран 1",
+      "Выбран 2"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Подружка невесты",
+    "team": "townsfolk",
+    "ability": "Каждую ночь: выберите двух игроков. Вы узнаёте, на одной ли они стороне.",
+    "image": "{{BASE_URL}}/icons/podruzhka_nevesty.svg"
+  },
+  {
+    "id": "fotograf",
+    "edition": "custom",
+    "firstNight": 42,
+    "firstNightReminder": "Покажите Фотографу трёх игроков, среди которых есть хотя бы один Интриган.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Показан"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Фотограф",
+    "team": "townsfolk",
+    "ability": "Вступление: вы узнаёте трёх игроков. Среди них есть хотя бы один Интриган.",
+    "image": "{{BASE_URL}}/icons/fotograf.svg"
+  },
+  {
+    "id": "vedushchiy",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 46,
+    "otherNightReminder": "Ведущий назвал двух игроков днём. Покажите «да», если ровно один из них злой, иначе «нет».",
+    "reminders": [
+      "Назван 1",
+      "Назван 2"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Ведущий",
+    "team": "townsfolk",
+    "ability": "Каждый день: публично назовите двух игроков. Ночью вы узнаёте, ровно ли один из них злой.",
+    "image": "{{BASE_URL}}/icons/vedushchiy.svg"
+  },
+  {
+    "id": "roditel_nevesty",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Выбран",
+      "Пьяный",
+      "Умирает"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Родитель невесты",
+    "team": "townsfolk",
+    "ability": "Если вас казнят: выберите игрока. Если он злой, он умирает этой ночью. Иначе он пьяный до конца игры.",
+    "image": "{{BASE_URL}}/icons/roditel_nevesty.svg"
+  },
+  {
+    "id": "yuvelir",
+    "edition": "custom",
+    "firstNight": 43,
+    "firstNightReminder": "Ювелир указывает на двух соседних игроков. Если оба добрые, поставьте «Верная информация» одному из них на следующую ночь.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Выбран 1",
+      "Выбран 2",
+      "Верная информация"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Ювелир",
+    "team": "townsfolk",
+    "ability": "Вступление: выберите двух соседних игроков. Если оба добрые, один из них получает верную информацию следующей ночью.",
+    "image": "{{BASE_URL}}/icons/yuvelir.svg"
+  },
+  {
+    "id": "zhenih",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 43,
+    "otherNightReminder": "Жених выбирает живого игрока. Если этой ночью Разрушитель выбрал того же игрока, он не умирает. Поставьте «Защищён».",
+    "reminders": [
+      "Защищён"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Жених",
+    "team": "townsfolk",
+    "ability": "Каждую ночь*: выберите живого игрока. Если его выбрал Разрушитель, он не умирает этой ночью.",
+    "image": "{{BASE_URL}}/icons/zhenih.svg"
+  },
+  {
+    "id": "rasporyaditel_ceremonii",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 45,
+    "otherNightReminder": "Распорядитель церемонии выбирает игрока. Покажите число (0, 1 или 2) злых среди его двух живых соседей.",
+    "reminders": [
+      "Выбран"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Распорядитель церемонии",
+    "team": "townsfolk",
+    "ability": "Каждую ночь: выберите игрока. Вы узнаёте, сколько злых среди его двух живых соседей.",
+    "image": "{{BASE_URL}}/icons/rasporyaditel_ceremonii.svg"
+  },
+  {
+    "id": "tamada",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Тост",
+      "Защищён",
+      "Умирает"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Тамада",
+    "team": "townsfolk",
+    "ability": "Один раз за игру, днём: публично произнесите тост за игрока. Если он добрый, он не может умереть этой ночью. Если злой, вы умираете этой ночью.",
+    "image": "{{BASE_URL}}/icons/tamada.svg"
+  },
+  {
+    "id": "roditel_zheniha",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 51,
+    "otherNightReminder": "Если этой ночью впервые умер добрый игрок: покажите Родителю жениха роль одного живого злого игрока (не указывая, кто это). Поставьте «Сработал».",
+    "reminders": [
+      "Сработал"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Родитель жениха",
+    "team": "townsfolk",
+    "ability": "Когда впервые ночью умирает добрый игрок, вы узнаёте роль живого злого игрока, но не кто это.",
+    "image": "{{BASE_URL}}/icons/roditel_zheniha.svg"
+  },
+  {
+    "id": "registrator",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 47,
+    "otherNightReminder": "Если способность не использована: Регистратор выбирает двух игроков. Покажите «да», если один из них Разрушитель, иначе «нет». Поставьте «Нет способности».",
+    "reminders": [
+      "Выбран 1",
+      "Выбран 2",
+      "Нет способности"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Регистратор",
+    "team": "townsfolk",
+    "ability": "Один раз за игру, ночью: выберите двух игроков. Если один из них — Разрушитель, вы узнаёте «да», иначе «нет».",
+    "image": "{{BASE_URL}}/icons/registrator.svg"
+  },
+  {
+    "id": "staryy_drug_semi",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 50,
+    "otherNightReminder": "Если Старый друг семьи мёртв: покажите «да», если сегодня был казнён злой игрок, иначе «нет».",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Старый друг семьи",
+    "team": "townsfolk",
+    "ability": "Если вы мертвы: каждую ночь вы узнаёте, был ли казнён злой игрок сегодня.",
+    "image": "{{BASE_URL}}/icons/staryy_drug_semi.svg"
+  },
+  {
+    "id": "opozdavshiy_gost",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Задержка",
+      "Показан как роль"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Опоздавший гость",
+    "team": "outsider",
+    "ability": "Вы можете получать информацию на одну ночь позже. Рассказчик может показать вас как отсутствующую в игре роль.",
+    "image": "{{BASE_URL}}/icons/opozdavshiy_gost.svg"
+  },
+  {
+    "id": "pyanyy_dyadya",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Пьяный"
+    ],
+    "remindersGlobal": [],
+    "setup": true,
+    "name": "Пьяный дядя",
+    "team": "outsider",
+    "ability": "Вы не знаете, что вы Пьяный дядя. Вы считаете себя определённым Близким, но его способность не работает.",
+    "image": "{{BASE_URL}}/icons/pyanyy_dyadya.svg"
+  },
+  {
+    "id": "broshennaya_byvshaya",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Пьяный"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Брошенная бывшая",
+    "team": "outsider",
+    "ability": "Если вы умираете днём, один живой Близкий становится пьяным до следующей ночи.",
+    "image": "{{BASE_URL}}/icons/broshennaya_byvshaya.svg"
+  },
+  {
+    "id": "nezhelannyy_plyus_odin",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Сосед Разрушителя"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Нежеланный плюс-один",
+    "team": "outsider",
+    "ability": "Вы можете определяться злым, Интриганом или Разрушителем. Если вы сидите рядом с Разрушителем, он узнаёт это.",
+    "image": "{{BASE_URL}}/icons/nezhelannyy_plyus_odin.svg"
+  },
+  {
+    "id": "zavistlivaya_podruzhka",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 42,
+    "otherNightReminder": "Завистливая подружка выбирает игрока — он пьяный до следующей ночи. Если это Невеста или Жених, покажите его роль. Поставьте «Пьяный».",
+    "reminders": [
+      "Пьяный"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Завистливая подружка",
+    "team": "minion",
+    "ability": "Каждую ночь: выберите игрока. Он пьяный до следующей ночи. Если это Невеста или Жених, вы узнаёте его роль.",
+    "image": "{{BASE_URL}}/icons/zavistlivaya_podruzhka.svg"
+  },
+  {
+    "id": "spletnica",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 48,
+    "otherNightReminder": "Сплетница выбирает двух игроков. Завтра первый должен публично обвинить второго, иначе может умереть. Поставьте «Должен обвинить», «Цель обвинения», «Может умереть».",
+    "reminders": [
+      "Должен обвинить",
+      "Цель обвинения",
+      "Может умереть"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Сплетница",
+    "team": "minion",
+    "ability": "Каждую ночь: выберите двух игроков. Завтра первый должен публично обвинить второго, иначе может умереть.",
+    "image": "{{BASE_URL}}/icons/spletnica.svg"
+  },
+  {
+    "id": "svadebnyy_aferist",
+    "edition": "custom",
+    "firstNight": 44,
+    "firstNightReminder": "Свадебный аферист выбирает добрую роль не в игре. Запомните её и поставьте «Ложная роль».",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Ложная роль"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Свадебный аферист",
+    "team": "minion",
+    "ability": "Вступление: выберите добрую роль, отсутствующую в игре. До конца игры вы можете определяться как эта роль.",
+    "image": "{{BASE_URL}}/icons/svadebnyy_aferist.svg"
+  },
+  {
+    "id": "razluchnik",
+    "edition": "custom",
+    "firstNight": 45,
+    "firstNightReminder": "Разлучник указывает на двух соседних игроков. Пока оба живы, один из них получает ложную информацию. Поставьте «Ложная информация».",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Выбран 1",
+      "Выбран 2",
+      "Ложная информация"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Разлучник",
+    "team": "minion",
+    "ability": "Вступление: выберите двух соседних игроков. Пока оба живы, один из них получает ложную информацию.",
+    "image": "{{BASE_URL}}/icons/razluchnik.svg"
+  },
+  {
+    "id": "byvshiy_vozlyublennyy",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 49,
+    "otherNightReminder": "Бывший возлюбленный выбирает игрока — он умирает. Если днём его публично обвинял добрый игрок, он выбирает второго; один из двух не умирает.",
+    "reminders": [
+      "Мёртв",
+      "Второй выбран",
+      "Не умирает"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Бывший возлюбленный",
+    "team": "demon",
+    "ability": "Каждую ночь*: выберите игрока: он умирает. Если сегодня вас публично обвинял добрый игрок, выберите второго; один из них не умирает.",
+    "image": "{{BASE_URL}}/icons/byvshiy_vozlyublennyy.svg"
+  },
+  {
+    "id": "sbezhavshiy_zhenih",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 49,
+    "otherNightReminder": "Сбежавший жених выбирает игрока — он умирает. Если вчера не было казни, вместо него может умереть один из его живых соседей.",
+    "reminders": [
+      "Мёртв",
+      "Сосед умер"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Сбежавший жених",
+    "team": "demon",
+    "ability": "Каждую ночь*: выберите игрока: он умирает. Если вчера не было казни, вместо него может умереть один из его соседей.",
+    "image": "{{BASE_URL}}/icons/sbezhavshiy_zhenih.svg"
+  },
+  {
+    "id": "brachnyy_aferist",
+    "edition": "custom",
+    "firstNight": 46,
+    "firstNightReminder": "Брачный аферист выбирает доброго игрока — жертву. Поставьте «Жертва».",
+    "otherNight": 49,
+    "otherNightReminder": "Брачный аферист выбирает игрока — он умирает. Пока жертва жива, аферист может определяться добрым.",
+    "reminders": [
+      "Жертва",
+      "Мёртв"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Брачный аферист",
+    "team": "demon",
+    "ability": "Вступление: выберите доброго игрока — вашу жертву. Каждую ночь*: выберите игрока: он умирает. Пока жертва жива, вы можете определяться добрым.",
+    "image": "{{BASE_URL}}/icons/brachnyy_aferist.svg"
+  },
+  {
+    "id": "podstavnaya_nevesta",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 49,
+    "otherNightReminder": "Подставная невеста выбирает игрока — он умирает. При первой казни вместо неё может умереть живой игрок, публично доверявший ей сегодня.",
+    "reminders": [
+      "Мёртв",
+      "Доверял",
+      "Защита использована"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Подставная невеста",
+    "team": "demon",
+    "ability": "Каждую ночь*: выберите игрока: он умирает. Первый раз, когда вас должны казнить, вместо вас может умереть живой игрок, публично доверявший вам сегодня.",
+    "image": "{{BASE_URL}}/icons/podstavnaya_nevesta.svg"
+  }
+]

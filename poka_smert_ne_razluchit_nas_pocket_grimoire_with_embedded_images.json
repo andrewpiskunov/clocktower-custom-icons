@@ -1,0 +1,453 @@
+[
+  {
+    "id": "_meta",
+    "name": "Пока смерть не разлучит нас",
+    "author": "fan script",
+    "logo": ""
+  },
+  {
+    "id": "nevesta",
+    "edition": "custom",
+    "firstNight": 40,
+    "firstNightReminder": "Невеста выбирает игрока. Покажите «добрый» или «злой». Если выбран Жених, покажите им друг друга и поставьте «Знает Жениха».",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Проверен",
+      "Знает Жениха"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Невеста",
+    "team": "townsfolk",
+    "ability": "Вступление: вы узнаёте, добрый ли один выбранный вами игрок. Если это Жених, вы оба узнаёте друг друга.",
+    "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20fill%3D%22none%22%20stroke%3D%22%231d4ed8%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M15%2066%20Q50%2082%2085%2066%22%2F%3E%3Cpath%20d%3D%22M25%2067%20L35%2041%20L45%2063%22%2F%3E%3Cpath%20d%3D%22M40%2064%20L50%2033%20L60%2064%22%2F%3E%3Cpath%20d%3D%22M55%2063%20L65%2041%20L75%2067%22%2F%3E%3Ccircle%20cx%3D%2235%22%20cy%3D%2241%22%20r%3D%223%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2233%22%20r%3D%223.5%22%2F%3E%3Ccircle%20cx%3D%2265%22%20cy%3D%2241%22%20r%3D%223%22%2F%3E%3C%2Fsvg%3E"
+  },
+  {
+    "id": "svidetel",
+    "edition": "custom",
+    "firstNight": 41,
+    "firstNightReminder": "Покажите Свидетелю двух игроков, среди которых ровно один злой.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Показан"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Свидетель",
+    "team": "townsfolk",
+    "ability": "Вступление: вы узнаёте двух игроков, среди которых ровно один злой.",
+    "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20fill%3D%22none%22%20stroke%3D%22%231d4ed8%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M50%2062%20L26%2050%20L26%2074%20Z%22%2F%3E%3Cpath%20d%3D%22M50%2062%20L74%2050%20L74%2074%20Z%22%2F%3E%3Crect%20x%3D%2245%22%20y%3D%2256%22%20width%3D%2210%22%20height%3D%2212%22%20rx%3D%222%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2230%22%20r%3D%227%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2237%22%20x2%3D%2250%22%20y2%3D%2250%22%2F%3E%3C%2Fsvg%3E"
+  },
+  {
+    "id": "podruzhka_nevesty",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 44,
+    "otherNightReminder": "Подружка невесты выбирает двух игроков. Покажите «да», если они на одной стороне, иначе «нет».",
+    "reminders": [
+      "Выбран 1",
+      "Выбран 2"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Подружка невесты",
+    "team": "townsfolk",
+    "ability": "Каждую ночь: выберите двух игроков. Вы узнаёте, на одной ли они стороне.",
+    "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20fill%3D%22none%22%20stroke%3D%22%231d4ed8%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%2238%22%20cy%3D%2230%22%20r%3D%229%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2228%22%20r%3D%229%22%2F%3E%3Ccircle%20cx%3D%2249%22%20cy%3D%2244%22%20r%3D%229%22%2F%3E%3Cpath%20d%3D%22M40%2050%20L48%2078%22%2F%3E%3Cpath%20d%3D%22M58%2048%20L51%2078%22%2F%3E%3Cpath%20d%3D%22M49%2053%20L50%2078%22%2F%3E%3Cpath%20d%3D%22M38%2070%20L60%2070%20L54%2086%20L44%2086%20Z%22%2F%3E%3C%2Fsvg%3E"
+  },
+  {
+    "id": "fotograf",
+    "edition": "custom",
+    "firstNight": 42,
+    "firstNightReminder": "Покажите Фотографу трёх игроков, среди которых есть хотя бы один Интриган.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Показан"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Фотограф",
+    "team": "townsfolk",
+    "ability": "Вступление: вы узнаёте трёх игроков. Среди них есть хотя бы один Интриган.",
+    "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20fill%3D%22none%22%20stroke%3D%22%231d4ed8%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Crect%20x%3D%2218%22%20y%3D%2238%22%20width%3D%2264%22%20height%3D%2244%22%20rx%3D%224%22%2F%3E%3Crect%20x%3D%2238%22%20y%3D%2230%22%20width%3D%2220%22%20height%3D%2210%22%20rx%3D%222%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2260%22%20r%3D%2214%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2260%22%20r%3D%226%22%2F%3E%3Ccircle%20cx%3D%2270%22%20cy%3D%2247%22%20r%3D%222.5%22%2F%3E%3C%2Fsvg%3E"
+  },
+  {
+    "id": "vedushchiy",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 46,
+    "otherNightReminder": "Ведущий назвал двух игроков днём. Покажите «да», если ровно один из них злой, иначе «нет».",
+    "reminders": [
+      "Назван 1",
+      "Назван 2"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Ведущий",
+    "team": "townsfolk",
+    "ability": "Каждый день: публично назовите двух игроков. Ночью вы узнаёте, ровно ли один из них злой.",
+    "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20fill%3D%22none%22%20stroke%3D%22%231d4ed8%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Crect%20x%3D%2240%22%20y%3D%2218%22%20width%3D%2220%22%20height%3D%2236%22%20rx%3D%2210%22%2F%3E%3Cline%20x1%3D%2241%22%20y1%3D%2232%22%20x2%3D%2259%22%20y2%3D%2232%22%2F%3E%3Cline%20x1%3D%2241%22%20y1%3D%2242%22%20x2%3D%2259%22%20y2%3D%2242%22%2F%3E%3Cpath%20d%3D%22M30%2050%20Q30%2070%2050%2070%20Q70%2070%2070%2050%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2270%22%20x2%3D%2250%22%20y2%3D%2284%22%2F%3E%3Cline%20x1%3D%2238%22%20y1%3D%2284%22%20x2%3D%2262%22%20y2%3D%2284%22%2F%3E%3C%2Fsvg%3E"
+  },
+  {
+    "id": "roditel_nevesty",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Выбран",
+      "Пьяный",
+      "Умирает"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Родитель невесты",
+    "team": "townsfolk",
+    "ability": "Если вас казнят: выберите игрока. Если он злой, он умирает этой ночью. Иначе он пьяный до конца игры.",
+    "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20fill%3D%22none%22%20stroke%3D%22%231d4ed8%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2228%22%20r%3D%2213%22%2F%3E%3Cpath%20d%3D%22M24%2086%20Q24%2050%2050%2050%20Q76%2050%2076%2086%22%2F%3E%3Cpath%20d%3D%22M50%2050%20L43%2066%20L50%2072%20L57%2066%20Z%22%2F%3E%3C%2Fsvg%3E"
+  },
+  {
+    "id": "yuvelir",
+    "edition": "custom",
+    "firstNight": 43,
+    "firstNightReminder": "Ювелир указывает на двух соседних игроков. Если оба добрые, поставьте «Верная информация» одному из них на следующую ночь.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Выбран 1",
+      "Выбран 2",
+      "Верная информация"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Ювелир",
+    "team": "townsfolk",
+    "ability": "Вступление: выберите двух соседних игроков. Если оба добрые, один из них получает верную информацию следующей ночью.",
+    "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20fill%3D%22none%22%20stroke%3D%22%231d4ed8%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Crect%20x%3D%2228%22%20y%3D%2258%22%20width%3D%2244%22%20height%3D%2226%22%20rx%3D%223%22%2F%3E%3Cpath%20d%3D%22M28%2058%20L40%2042%20L84%2042%20L72%2058%22%2F%3E%3Crect%20x%3D%2236%22%20y%3D%2255%22%20width%3D%2228%22%20height%3D%227%22%20rx%3D%223%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2248%22%20r%3D%228%22%2F%3E%3Cpath%20d%3D%22M44%2040%20L50%2031%20L56%2040%20Z%22%2F%3E%3C%2Fsvg%3E"
+  },
+  {
+    "id": "zhenih",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 43,
+    "otherNightReminder": "Жених выбирает живого игрока. Если этой ночью Разрушитель выбрал того же игрока, он не умирает. Поставьте «Защищён».",
+    "reminders": [
+      "Защищён"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Жених",
+    "team": "townsfolk",
+    "ability": "Каждую ночь*: выберите живого игрока. Если его выбрал Разрушитель, он не умирает этой ночью.",
+    "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20fill%3D%22none%22%20stroke%3D%22%231d4ed8%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M50%2022%20L34%2040%20L42%2080%22%2F%3E%3Cpath%20d%3D%22M50%2022%20L66%2040%20L58%2080%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2230%22%20x2%3D%2250%22%20y2%3D%2280%22%2F%3E%3Cpath%20d%3D%22M50%2037%20L42%2032%20L42%2042%20Z%22%2F%3E%3Cpath%20d%3D%22M50%2037%20L58%2032%20L58%2042%20Z%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2254%22%20r%3D%222%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2264%22%20r%3D%222%22%2F%3E%3C%2Fsvg%3E"
+  },
+  {
+    "id": "rasporyaditel_ceremonii",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 45,
+    "otherNightReminder": "Распорядитель церемонии выбирает игрока. Покажите число (0, 1 или 2) злых среди его двух живых соседей.",
+    "reminders": [
+      "Выбран"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Распорядитель церемонии",
+    "team": "townsfolk",
+    "ability": "Каждую ночь: выберите игрока. Вы узнаёте, сколько злых среди его двух живых соседей.",
+    "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20fill%3D%22none%22%20stroke%3D%22%231d4ed8%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cline%20x1%3D%2228%22%20y1%3D%2286%22%20x2%3D%2228%22%20y2%3D%2240%22%2F%3E%3Cline%20x1%3D%2272%22%20y1%3D%2286%22%20x2%3D%2272%22%20y2%3D%2240%22%2F%3E%3Cpath%20d%3D%22M28%2040%20Q50%2016%2072%2040%22%2F%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2234%22%20r%3D%224%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2224%22%20r%3D%224%22%2F%3E%3Ccircle%20cx%3D%2268%22%20cy%3D%2234%22%20r%3D%224%22%2F%3E%3C%2Fsvg%3E"
+  },
+  {
+    "id": "tamada",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Тост",
+      "Защищён",
+      "Умирает"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Тамада",
+    "team": "townsfolk",
+    "ability": "Один раз за игру, днём: публично произнесите тост за игрока. Если он добрый, он не может умереть этой ночью. Если злой, вы умираете этой ночью.",
+    "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20fill%3D%22none%22%20stroke%3D%22%231d4ed8%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M30%2022%20L40%2022%20L36%2047%20L34%2047%20Z%22%2F%3E%3Cline%20x1%3D%2235%22%20y1%3D%2247%22%20x2%3D%2235%22%20y2%3D%2276%22%2F%3E%3Cline%20x1%3D%2228%22%20y1%3D%2276%22%20x2%3D%2242%22%20y2%3D%2276%22%2F%3E%3Cpath%20d%3D%22M60%2022%20L70%2022%20L66%2047%20L64%2047%20Z%22%2F%3E%3Cline%20x1%3D%2265%22%20y1%3D%2247%22%20x2%3D%2265%22%20y2%3D%2276%22%2F%3E%3Cline%20x1%3D%2258%22%20y1%3D%2276%22%20x2%3D%2272%22%20y2%3D%2276%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2230%22%20r%3D%222%22%2F%3E%3Ccircle%20cx%3D%2254%22%20cy%3D%2220%22%20r%3D%221.5%22%2F%3E%3C%2Fsvg%3E"
+  },
+  {
+    "id": "roditel_zheniha",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 51,
+    "otherNightReminder": "Если этой ночью впервые умер добрый игрок: покажите Родителю жениха роль одного живого злого игрока (не указывая, кто это). Поставьте «Сработал».",
+    "reminders": [
+      "Сработал"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Родитель жениха",
+    "team": "townsfolk",
+    "ability": "Когда впервые ночью умирает добрый игрок, вы узнаёте роль живого злого игрока, но не кто это.",
+    "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20fill%3D%22none%22%20stroke%3D%22%231d4ed8%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Crect%20x%3D%2234%22%20y%3D%2222%22%20width%3D%2232%22%20height%3D%2242%22%20rx%3D%222%22%2F%3E%3Cpath%20d%3D%22M18%2064%20Q50%2076%2082%2064%22%2F%3E%3Cline%20x1%3D%2234%22%20y1%3D%2256%22%20x2%3D%2266%22%20y2%3D%2256%22%2F%3E%3C%2Fsvg%3E"
+  },
+  {
+    "id": "registrator",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 47,
+    "otherNightReminder": "Если способность не использована: Регистратор выбирает двух игроков. Покажите «да», если один из них Разрушитель, иначе «нет». Поставьте «Нет способности».",
+    "reminders": [
+      "Выбран 1",
+      "Выбран 2",
+      "Нет способности"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Регистратор",
+    "team": "townsfolk",
+    "ability": "Один раз за игру, ночью: выберите двух игроков. Если один из них — Разрушитель, вы узнаёте «да», иначе «нет».",
+    "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20fill%3D%22none%22%20stroke%3D%22%231d4ed8%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M16%2042%20Q33%2034%2050%2042%20Q67%2034%2084%2042%20L84%2076%20Q67%2068%2050%2076%20Q33%2068%2016%2076%20Z%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2242%22%20x2%3D%2250%22%20y2%3D%2276%22%2F%3E%3Cline%20x1%3D%2258%22%20y1%3D%2264%22%20x2%3D%2280%22%20y2%3D%2230%22%2F%3E%3Cpath%20d%3D%22M58%2064%20L56%2071%20L63%2067%20Z%22%2F%3E%3C%2Fsvg%3E"
+  },
+  {
+    "id": "staryy_drug_semi",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 50,
+    "otherNightReminder": "Если Старый друг семьи мёртв: покажите «да», если сегодня был казнён злой игрок, иначе «нет».",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Старый друг семьи",
+    "team": "townsfolk",
+    "ability": "Если вы мертвы: каждую ночь вы узнаёте, был ли казнён злой игрок сегодня.",
+    "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20fill%3D%22none%22%20stroke%3D%22%231d4ed8%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M40%2C64.0%20C20.0%2C46.0%2022.0%2C28.0%2040%2C40.0%20C58.0%2C28.0%2060.0%2C46.0%2040%2C64.0%20Z%22%2F%3E%3Cpath%20d%3D%22M62%2C66.0%20C42.0%2C48.0%2044.0%2C30.0%2062%2C42.0%20C80.0%2C30.0%2082.0%2C48.0%2062%2C66.0%20Z%22%2F%3E%3C%2Fsvg%3E"
+  },
+  {
+    "id": "opozdavshiy_gost",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Задержка",
+      "Показан как роль"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Опоздавший гость",
+    "team": "outsider",
+    "ability": "Вы можете получать информацию на одну ночь позже. Рассказчик может показать вас как отсутствующую в игре роль.",
+    "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20fill%3D%22none%22%20stroke%3D%22%2315803d%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2258%22%20r%3D%2226%22%2F%3E%3Crect%20x%3D%2245%22%20y%3D%2220%22%20width%3D%2210%22%20height%3D%229%22%20rx%3D%222%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2258%22%20x2%3D%2250%22%20y2%3D%2242%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2258%22%20x2%3D%2262%22%20y2%3D%2262%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2258%22%20r%3D%222%22%2F%3E%3C%2Fsvg%3E"
+  },
+  {
+    "id": "pyanyy_dyadya",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Пьяный"
+    ],
+    "remindersGlobal": [],
+    "setup": true,
+    "name": "Пьяный дядя",
+    "team": "outsider",
+    "ability": "Вы не знаете, что вы Пьяный дядя. Вы считаете себя определённым Близким, но его способность не работает.",
+    "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20fill%3D%22none%22%20stroke%3D%22%2315803d%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M34%2018%20L44%2018%20L44%2030%20L48%2038%20L48%2082%20L30%2082%20L30%2038%20L34%2030%20Z%22%2F%3E%3Cline%20x1%3D%2230%22%20y1%3D%2258%22%20x2%3D%2248%22%20y2%3D%2258%22%2F%3E%3Cpath%20d%3D%22M58%2046%20L74%2046%20L71%2082%20L61%2082%20Z%22%2F%3E%3Cline%20x1%3D%2260%22%20y1%3D%2262%22%20x2%3D%2272%22%20y2%3D%2262%22%2F%3E%3C%2Fsvg%3E"
+  },
+  {
+    "id": "broshennaya_byvshaya",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Пьяный"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Брошенная бывшая",
+    "team": "outsider",
+    "ability": "Если вы умираете днём, один живой Близкий становится пьяным до следующей ночи.",
+    "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20fill%3D%22none%22%20stroke%3D%22%2315803d%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M50%2C67.6%20C22.0%2C42.4%2024.8%2C17.2%2050%2C34.0%20C75.2%2C17.2%2078.0%2C42.4%2050%2C67.6%20Z%22%2F%3E%3Cpolyline%20points%3D%2250%2C28%2043%2C46%2055%2C56%2047%2C74%22%2F%3E%3C%2Fsvg%3E"
+  },
+  {
+    "id": "nezhelannyy_plyus_odin",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Сосед Разрушителя"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Нежеланный плюс-один",
+    "team": "outsider",
+    "ability": "Вы можете определяться злым, Интриганом или Разрушителем. Если вы сидите рядом с Разрушителем, он узнаёт это.",
+    "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20fill%3D%22none%22%20stroke%3D%22%2315803d%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2230%22%2F%3E%3Cline%20x1%3D%2236%22%20y1%3D%2250%22%20x2%3D%2252%22%20y2%3D%2250%22%2F%3E%3Cline%20x1%3D%2244%22%20y1%3D%2242%22%20x2%3D%2244%22%20y2%3D%2258%22%2F%3E%3Cline%20x1%3D%2262%22%20y1%3D%2242%22%20x2%3D%2262%22%20y2%3D%2258%22%2F%3E%3Cline%20x1%3D%2257%22%20y1%3D%2246%22%20x2%3D%2262%22%20y2%3D%2242%22%2F%3E%3C%2Fsvg%3E"
+  },
+  {
+    "id": "zavistlivaya_podruzhka",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 42,
+    "otherNightReminder": "Завистливая подружка выбирает игрока — он пьяный до следующей ночи. Если это Невеста или Жених, покажите его роль. Поставьте «Пьяный».",
+    "reminders": [
+      "Пьяный"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Завистливая подружка",
+    "team": "minion",
+    "ability": "Каждую ночь: выберите игрока. Он пьяный до следующей ночи. Если это Невеста или Жених, вы узнаёте его роль.",
+    "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20fill%3D%22none%22%20stroke%3D%22%23dc2626%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M24%2048%20Q26%2060%2040%2060%20L72%2060%20Q80%2060%2080%2056%20L36%2051%20Q26%2046%2024%2048%20Z%22%2F%3E%3Cpath%20d%3D%22M70%2060%20L73%2082%20L79%2082%20L75%2060%20Z%22%2F%3E%3C%2Fsvg%3E"
+  },
+  {
+    "id": "spletnica",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 48,
+    "otherNightReminder": "Сплетница выбирает двух игроков. Завтра первый должен публично обвинить второго, иначе может умереть. Поставьте «Должен обвинить», «Цель обвинения», «Может умереть».",
+    "reminders": [
+      "Должен обвинить",
+      "Цель обвинения",
+      "Может умереть"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Сплетница",
+    "team": "minion",
+    "ability": "Каждую ночь: выберите двух игроков. Завтра первый должен публично обвинить второго, иначе может умереть.",
+    "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20fill%3D%22none%22%20stroke%3D%22%23dc2626%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M28%2050%20Q50%2040%2072%2050%20Q50%2064%2028%2050%20Z%22%2F%3E%3Cline%20x1%3D%2228%22%20y1%3D%2250%22%20x2%3D%2272%22%20y2%3D%2250%22%2F%3E%3Cline%20x1%3D%2276%22%20y1%3D%2244%22%20x2%3D%2287%22%20y2%3D%2242%22%2F%3E%3Cline%20x1%3D%2276%22%20y1%3D%2252%22%20x2%3D%2288%22%20y2%3D%2255%22%2F%3E%3C%2Fsvg%3E"
+  },
+  {
+    "id": "svadebnyy_aferist",
+    "edition": "custom",
+    "firstNight": 44,
+    "firstNightReminder": "Свадебный аферист выбирает добрую роль не в игре. Запомните её и поставьте «Ложная роль».",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Ложная роль"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Свадебный аферист",
+    "team": "minion",
+    "ability": "Вступление: выберите добрую роль, отсутствующую в игре. До конца игры вы можете определяться как эта роль.",
+    "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20fill%3D%22none%22%20stroke%3D%22%23dc2626%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M18%2042%20Q18%2030%2034%2032%20Q50%2036%2066%2032%20Q82%2030%2082%2042%20Q82%2060%2064%2062%20Q50%2056%2036%2062%20Q18%2060%2018%2042%20Z%22%2F%3E%3Cellipse%20cx%3D%2236%22%20cy%3D%2244%22%20rx%3D%227%22%20ry%3D%225%22%2F%3E%3Cellipse%20cx%3D%2264%22%20cy%3D%2244%22%20rx%3D%227%22%20ry%3D%225%22%2F%3E%3Cpath%20d%3D%22M50%2034%20L46%2024%22%2F%3E%3Cpath%20d%3D%22M50%2034%20L54%2024%22%2F%3E%3C%2Fsvg%3E"
+  },
+  {
+    "id": "razluchnik",
+    "edition": "custom",
+    "firstNight": 45,
+    "firstNightReminder": "Разлучник указывает на двух соседних игроков. Пока оба живы, один из них получает ложную информацию. Поставьте «Ложная информация».",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Выбран 1",
+      "Выбран 2",
+      "Ложная информация"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Разлучник",
+    "team": "minion",
+    "ability": "Вступление: выберите двух соседних игроков. Пока оба живы, один из них получает ложную информацию.",
+    "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20fill%3D%22none%22%20stroke%3D%22%23dc2626%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M44%2030%20C26%2016%2012%2034%2020%2050%20C26%2062%2036%2070%2042%2080%20L38%2064%20L44%2054%20L36%2044%20Z%22%2F%3E%3Cpath%20d%3D%22M56%2030%20C74%2016%2088%2034%2080%2050%20C74%2062%2064%2070%2058%2080%20L62%2064%20L56%2054%20L64%2044%20Z%22%2F%3E%3C%2Fsvg%3E"
+  },
+  {
+    "id": "byvshiy_vozlyublennyy",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 49,
+    "otherNightReminder": "Бывший возлюбленный выбирает игрока — он умирает. Если днём его публично обвинял добрый игрок, он выбирает второго; один из двух не умирает.",
+    "reminders": [
+      "Мёртв",
+      "Второй выбран",
+      "Не умирает"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Бывший возлюбленный",
+    "team": "demon",
+    "ability": "Каждую ночь*: выберите игрока: он умирает. Если сегодня вас публично обвинял добрый игрок, выберите второго; один из них не умирает.",
+    "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20fill%3D%22none%22%20stroke%3D%22%236d28d9%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M50%2C70.2%20C24.0%2C46.8%2026.6%2C23.4%2050%2C39.0%20C73.4%2C23.4%2076.0%2C46.8%2050%2C70.2%20Z%22%2F%3E%3Cline%20x1%3D%2222%22%20y1%3D%2234%22%20x2%3D%2280%22%20y2%3D%2270%22%2F%3E%3Cpath%20d%3D%22M80%2070%20L70%2070%22%2F%3E%3Cpath%20d%3D%22M80%2070%20L78%2060%22%2F%3E%3Cpath%20d%3D%22M22%2034%20L31%2035%22%2F%3E%3Cpath%20d%3D%22M22%2034%20L23%2043%22%2F%3E%3C%2Fsvg%3E"
+  },
+  {
+    "id": "sbezhavshiy_zhenih",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 49,
+    "otherNightReminder": "Сбежавший жених выбирает игрока — он умирает. Если вчера не было казни, вместо него может умереть один из его живых соседей.",
+    "reminders": [
+      "Мёртв",
+      "Сосед умер"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Сбежавший жених",
+    "team": "demon",
+    "ability": "Каждую ночь*: выберите игрока: он умирает. Если вчера не было казни, вместо него может умереть один из его соседей.",
+    "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20fill%3D%22none%22%20stroke%3D%22%236d28d9%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%2258%22%20cy%3D%2224%22%20r%3D%228%22%2F%3E%3Cline%20x1%3D%2255%22%20y1%3D%2232%22%20x2%3D%2244%22%20y2%3D%2256%22%2F%3E%3Cpath%20d%3D%22M52%2040%20L66%2036%22%2F%3E%3Cpath%20d%3D%22M52%2040%20L38%2045%22%2F%3E%3Cpath%20d%3D%22M44%2056%20L56%2074%22%2F%3E%3Cpath%20d%3D%22M44%2056%20L30%2070%22%2F%3E%3C%2Fsvg%3E"
+  },
+  {
+    "id": "brachnyy_aferist",
+    "edition": "custom",
+    "firstNight": 46,
+    "firstNightReminder": "Брачный аферист выбирает доброго игрока — жертву. Поставьте «Жертва».",
+    "otherNight": 49,
+    "otherNightReminder": "Брачный аферист выбирает игрока — он умирает. Пока жертва жива, аферист может определяться добрым.",
+    "reminders": [
+      "Жертва",
+      "Мёртв"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Брачный аферист",
+    "team": "demon",
+    "ability": "Вступление: выберите доброго игрока — вашу жертву. Каждую ночь*: выберите игрока: он умирает. Пока жертва жива, вы можете определяться добрым.",
+    "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20fill%3D%22none%22%20stroke%3D%22%236d28d9%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Crect%20x%3D%2232%22%20y%3D%2256%22%20width%3D%2236%22%20height%3D%2220%22%20rx%3D%222%22%2F%3E%3Crect%20x%3D%2238%22%20y%3D%2240%22%20width%3D%2224%22%20height%3D%2216%22%20rx%3D%222%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2234%22%20r%3D%224%22%2F%3E%3Cline%20x1%3D%2226%22%20y1%3D%2278%22%20x2%3D%2274%22%20y2%3D%2278%22%2F%3E%3Cline%20x1%3D%2270%22%20y1%3D%2220%22%20x2%3D%2282%22%20y2%3D%2248%22%2F%3E%3Cpath%20d%3D%22M70%2020%20L65%2024%20L73%2023%20Z%22%2F%3E%3C%2Fsvg%3E"
+  },
+  {
+    "id": "podstavnaya_nevesta",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 49,
+    "otherNightReminder": "Подставная невеста выбирает игрока — он умирает. При первой казни вместо неё может умереть живой игрок, публично доверявший ей сегодня.",
+    "reminders": [
+      "Мёртв",
+      "Доверял",
+      "Защита использована"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Подставная невеста",
+    "team": "demon",
+    "ability": "Каждую ночь*: выберите игрока: он умирает. Первый раз, когда вас должны казнить, вместо вас может умереть живой игрок, публично доверявший вам сегодня.",
+    "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20fill%3D%22none%22%20stroke%3D%22%236d28d9%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2226%22%20r%3D%2210%22%2F%3E%3Cpath%20d%3D%22M40%2022%20Q24%2030%2028%2072%22%2F%3E%3Cpath%20d%3D%22M60%2022%20Q76%2030%2072%2072%22%2F%3E%3Cpath%20d%3D%22M36%2080%20Q36%2046%2050%2046%20Q64%2046%2064%2080%22%2F%3E%3Cpath%20d%3D%22M42%2024%20Q50%2029%2058%2024%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2225%22%20r%3D%221.5%22%2F%3E%3Ccircle%20cx%3D%2254%22%20cy%3D%2225%22%20r%3D%221.5%22%2F%3E%3C%2Fsvg%3E"
+  }
+]
